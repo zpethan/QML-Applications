@@ -123,7 +123,7 @@ Rectangle {
 
 ```
 
-在这个示例中，我们用`property`定义了一个`animatedValue`的属性，属性初值为0，然后在使用`Animation on Property`语句指定将`SequentialAnimation`动画用于`animatedValue`属性，`SequentialAnimation`作用是顺序运行下面指定的两个`PropertyAnimation`动画，循环次数`loops`是`Animation.Infinite`无限循环，第一个`PropertyAnimation`动画，用`1000ms`的时间，将`animatedValue`变为150，第二个`PropertyAnimation`动画，用`1000ms`的时间，将`animatedValue`变为0。`Text`则将`animatedValue`显示出来。效果如下：
+在这个示例中，我们用`property`定义了一个`animatedValue`的属性，属性初值为0，然后在使用`Animation on Property`语句指定将`SequentialAnimation`动画用于`animatedValue`属性，`SequentialAnimation`作用是顺序运行下面指定的两个`PropertyAnimation`动画，循环次数`loops`是`Animation.Infinite`无限循环，第一个`PropertyAnimation`动画，用`1000ms`的时间，将`animatedValue`变为150，第二个`PropertyAnimation`动画，用`1000ms`的时间，将`animatedValue`变为0。`Text`则将`animatedValue`显示出来。效果如下图：
 
 ![Animations](images/Animations.gif)
 
